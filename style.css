@@ -1,0 +1,64 @@
+* {
+   margin: 0px; 
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+@import url('(https://fonts.google.com/specimen/Inter)');
+
+body {
+    background-color:  hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh;
+    width: 100vw */
+}
+
+.container {
+    font-family: Inter;
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    border-radius: 16px;
+    padding: 30px 30px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+h2 {
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 5px;  
+}
+.location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+}
+
+.description {
+    font-weight: 400;
+    margin: 30px;
+}
+/* .social-links{
+    
+} */
+.social-links a {
+    display: block;
+    padding: 20px 20px;
+    background-color: hsl(0, 0%, 20%);
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+    
+}
+.social-links a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
